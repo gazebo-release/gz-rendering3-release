@@ -1,3 +1,9 @@
+ignition-rendering3 (3.0.0~pre2-1~bionic) bionic; urgency=medium
+
+  * ignition-rendering3 3.0.0~pre2-1 release
+
+ -- Ian Chen <ichen@osrfoundation.org>  Fri, 15 Nov 2019 17:05:32 -0800
+
 ignition-rendering3 (3.0.0~pre1-1~bionic) bionic; urgency=medium
 
   * ignition-rendering2 3.0.0~pre1-1 release

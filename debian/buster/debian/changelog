@@ -1,3 +1,9 @@
+ignition-rendering3 (3.4.0-1~buster) buster; urgency=medium
+
+  * ignition-rendering3 3.4.0-1 release
+
+ -- Nate Koenig <nate@openrobotics.org>  Wed, 10 Feb 2021 07:53:13 -0800
+
 ignition-rendering3 (3.3.0-1~buster) buster; urgency=medium
 
   * ignition-rendering3 3.3.0-1 release

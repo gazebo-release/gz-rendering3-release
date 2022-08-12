@@ -99,3 +99,59 @@ Depends: libignition-rendering3-core-dev (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Rendering classes and functions for robot apps - Metapackage. Gazebo Rendering is a component in the Gazebo framework, a set of libraries designed to rapidly develop robot applications. Metapackage for development files
+
+Package: libgz-rendering3
+Depends: libignition-rendering3, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-rendering3-core-dev
+Depends: libignition-rendering3-core-dev, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-rendering3-ogre1-dev
+Depends: libignition-rendering3-ogre1-dev, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-rendering3-ogre1
+Depends: libignition-rendering3-ogre1, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-rendering3-ogre2-dev
+Depends: libignition-rendering3-ogre2-dev, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-rendering3-ogre2
+Depends: libignition-rendering3-ogre2, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
+
+Package: libgz-rendering3-dev
+Depends: libignition-rendering3-dev, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.

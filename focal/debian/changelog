@@ -1,3 +1,9 @@
+ignition-rendering3 (3.6.0-3~focal) focal; urgency=medium
+
+  * ignition-rendering3 3.6.0-3 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Mon, 15 Aug 2022 19:09:22 -0700
+
 ignition-rendering3 (3.6.0-2~focal) focal; urgency=medium
 
   * ignition-rendering3 3.6.0-2 release

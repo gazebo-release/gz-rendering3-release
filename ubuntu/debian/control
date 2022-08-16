@@ -27,7 +27,13 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Gazebo Rendering classes and functions for robot apps - Shared library. Gazebo Rendering is a component in the Gazebo framework, a set of libraries designed to rapidly develop robot applications. Main shared library
+Description: Gazebo Rendering classes and functions for robot apps - Shared library
+ Gazebo Rendering is a C++ library designed to provide an abstraction for
+ different rendering engines. It offers unified APIs for creating 3D graphics
+ applications.  Gazebo Rendering is a component in the Gazebo framework, a
+ set of libraries designed to rapidly develop robot applications.
+ .
+ Main shared library
 
 # Only for the examples:
 #
@@ -45,7 +51,11 @@ Depends: libignition-cmake2-dev,
          libignition-rendering3 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Gazebo Rendering classes and functions - Core development files. Gazebo Rendering is a component in the Gazebo framework, a set of libraries designed to rapidly develop robot applications. Core development files
+Description: Gazebo Rendering classes and functions - Core development files
+  Gazebo rendering is a component in the Gazebo framework, a set of libraries
+  designed to rapidly develop robot applications.
+  .
+  Core development files
 
 Package: libignition-rendering3-ogre1-dev
 Architecture: any
@@ -59,14 +69,26 @@ Depends: libignition-cmake2-dev,
          libignition-rendering3-ogre1 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Gazebo Rendering classes and functions for robot apps - Development files. Gazebo Rendering is a component in the Gazebo framework, a set of libraries designed to rapidly develop robot applications. Ogre1 component development files.
+Description: Gazebo Rendering classes and functions for robot apps - Ogre1 dev files
+ Gazebo Rendering is a C++ library designed to provide an abstraction for
+ different rendering engines. It offers unified APIs for creating 3D graphics
+ applications.  Gazebo Rendering is a component in the Gazebo framework, a
+ set of libraries designed to rapidly develop robot applications.
+ .
+ Ogre1 component development files
 
 Package: libignition-rendering3-ogre1
 Architecture: any
 Section: libdevel
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Gazebo Rendering classes and functions for robot apps - Development files. Gazebo Rendering is a component in the Gazebo framework, a set of libraries designed to rapidly develop robot applications. Ogre1 component shared library.
+Description: Gazebo Rendering classes and functions for robot apps - Ogre1 lib
+ Gazebo Rendering is a C++ library designed to provide an abstraction for
+ different rendering engines. It offers unified APIs for creating 3D graphics
+ applications.  Gazebo Rendering is a component in the Gazebo framework, a
+ set of libraries designed to rapidly develop robot applications.
+ .
+ Ogre1 component shared library
 
 Package: libignition-rendering3-ogre2-dev
 Architecture: any
@@ -80,14 +102,30 @@ Depends: libignition-cmake2-dev,
          libignition-rendering3-ogre2 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Gazebo Rendering classes and functions for robot apps - Development files. Gazebo Rendering is a component in the Gazebo framework, a set of libraries designed to rapidly develop robot applications. Ogre2 component development files.
+Description: Gazebo Rendering classes and functions for robot apps - Development files
+ Gazebo Rendering is a C++ library designed to provide an abstraction for
+ different rendering engines. It offers unified APIs for creating 3D graphics
+ applications.  Gazebo Rendering is a component in the Gazebo framework, a
+ set of libraries designed to rapidly develop robot applications.
+ Gazebo Rendering is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Ogre2 component development files
 
 Package: libignition-rendering3-ogre2
 Architecture: any
 Section: libdevel
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Gazebo Rendering classes and functions for robot apps - Development files. Gazebo Rendering is a component in the Gazebo framework, a set of libraries designed to rapidly develop robot applications. Ogre2 component shared library.
+Description: Gazebo Rendering classes and functions for robot apps - Development files
+ Gazebo Rendering is a C++ library designed to provide an abstraction for
+ different rendering engines. It offers unified APIs for creating 3D graphics
+ applications.  Gazebo Rendering is a component in the Gazebo framework, a
+ set of libraries designed to rapidly develop robot applications.
+ Gazebo Rendering is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Ogre2 component shared library
 
 Package: libignition-rendering3-dev
 Architecture: any
@@ -98,7 +136,15 @@ Depends: libignition-rendering3-core-dev (= ${binary:Version}),
          libignition-rendering3 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Gazebo Rendering classes and functions for robot apps - Metapackage. Gazebo Rendering is a component in the Gazebo framework, a set of libraries designed to rapidly develop robot applications. Metapackage for development files
+Description: Gazebo Rendering classes and functions for robot apps - Metapackage
+ Gazebo Rendering is a C++ library designed to provide an abstraction for
+ different rendering engines. It offers unified APIs for creating 3D graphics
+ applications.  Gazebo Rendering is a component in the Gazebo framework, a
+ set of libraries designed to rapidly develop robot applications.
+ Gazebo Rendering is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Metapackage for development files
 
 Package: libgz-rendering3
 Depends: libignition-rendering3, ${misc:Depends}

@@ -52,10 +52,10 @@ Depends: libignition-cmake2-dev,
          ${misc:Depends}
 Multi-Arch: same
 Description: Gazebo Rendering classes and functions - Core development files
-  Gazebo rendering is a component in the Gazebo framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Core development files
+ Gazebo rendering is a component in the Gazebo framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Core development files
 
 Package: libignition-rendering3-ogre1-dev
 Architecture: any
